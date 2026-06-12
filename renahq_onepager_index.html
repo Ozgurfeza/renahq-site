@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ozgur Karabulut — Sign Shop Quoting Research</title>
+<meta name="description" content="I own a sign &amp; advertising manufacturing company and I'm researching how independent US sign shops handle quoting and job intake. Not selling anything — learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Permanent+Marker&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink:#23211c; --paper:#f3ead8; --card:#fffdf6; --muted:#6b6354;
+    --yellow:#f7c948; --yellow-dk:#e0a800; --red:#c0392b; --line:#d9cfb8;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family:'Inter', -apple-system, sans-serif; color:var(--ink);
+    background:
+      repeating-linear-gradient(0deg, transparent 0 31px, rgba(35,33,28,.035) 31px 32px),
+      repeating-linear-gradient(90deg, transparent 0 31px, rgba(35,33,28,.035) 31px 32px),
+      var(--paper);
+    line-height:1.65;
+  }
+  /* hazard stripe top bar */
+  .hazard { height:14px;
+    background:repeating-linear-gradient(45deg, #23211c 0 16px, var(--yellow) 16px 32px); }
+
+  .wrap { max-width:680px; margin:0 auto; padding:56px 24px 72px; }
+
+  .shopsign {
+    background:#23211c; color:var(--yellow); display:inline-block;
+    font-family:'Oswald', sans-serif; font-weight:700; letter-spacing:.16em;
+    text-transform:uppercase; font-size:14px; padding:8px 18px; border-radius:4px;
+    box-shadow:3px 3px 0 rgba(35,33,28,.25);
+  }
+
+  h1 {
+    font-family:'Oswald', sans-serif; font-weight:700; text-transform:uppercase;
+    font-size:clamp(30px, 5.4vw, 46px); line-height:1.15; margin:26px 0 8px;
+    letter-spacing:.01em;
+  }
+  h1 .mark { background:linear-gradient(transparent 62%, var(--yellow) 62%); padding:0 2px; }
+
+  .handnote {
+    font-family:'Permanent Marker', cursive; color:var(--red); font-size:19px;
+    transform:rotate(-1.6deg); display:inline-block; margin:6px 0 26px;
+  }
+
+  p { font-size:17.5px; margin-bottom:18px; }
+  .muted { color:var(--muted); }
+
+  /* work-order card */
+  .workorder {
+    background:var(--card); border:2px solid var(--ink); border-radius:6px;
+    margin:40px 0 34px; position:relative;
+    box-shadow:6px 6px 0 rgba(35,33,28,.18);
+  }
+  .tape {
+    position:absolute; top:-14px; left:50%; transform:translateX(-50%) rotate(-2deg);
+    width:150px; height:30px; background:rgba(247,201,72,.85);
+    border-left:2px dashed rgba(35,33,28,.25); border-right:2px dashed rgba(35,33,28,.25);
+  }
+  .wo-head {
+    display:flex; justify-content:space-between; align-items:center;
+    border-bottom:2px dashed var(--line); padding:18px 24px 14px;
+    font-family:'Oswald', sans-serif; text-transform:uppercase; letter-spacing:.1em;
+  }
+  .wo-head .no { color:var(--red); font-weight:600; }
+  .wo-body { padding:20px 24px 26px; }
+  .wo-row { display:flex; gap:12px; margin-bottom:14px; font-size:16.5px; }
+  .wo-row .label {
+    font-family:'Oswald', sans-serif; text-transform:uppercase; font-size:13px;
+    letter-spacing:.08em; color:var(--muted); min-width:92px; padding-top:3px;
+  }
+  .btn {
+    display:inline-block; background:var(--yellow); color:var(--ink);
+    font-family:'Oswald', sans-serif; font-weight:600; text-transform:uppercase;
+    letter-spacing:.06em; text-decoration:none; font-size:17px;
+    padding:14px 28px; border:2px solid var(--ink); border-radius:6px;
+    box-shadow:4px 4px 0 var(--ink); margin-top:8px;
+  }
+  .btn:hover { background:var(--yellow-dk); transform:translate(1px,1px); box-shadow:3px 3px 0 var(--ink); }
+
+  .cropmarks { display:flex; justify-content:space-between; color:var(--muted); font-size:12px; margin:34px 0 0; font-family:'Oswald',sans-serif; letter-spacing:.2em; }
+
+  footer {
+    border-top:2px dashed var(--line); margin-top:40px; padding-top:20px;
+    font-size:13px; color:var(--muted);
+  }
+  footer a { color:var(--muted); }
+  a.mail { color:var(--ink); font-weight:600; }
+</style>
+</head>
+<body>
+<div class="hazard"></div>
+<div class="wrap">
+
+  <span class="shopsign">Shop owner to shop owner</span>
+
+  <h1>I cut vinyl for a living.<br>Now I'm trying to fix <span class="mark">quoting</span>.</h1>
+  <div class="handnote">not a sales page — there's nothing to buy here</div>
+
+  <p>Hi, I'm Ozgur. I own and run a sign &amp; advertising manufacturing shop — channel letters, wraps, banners, the whole mess. So I live the same week you do: requests landing by email, phone and walk-in, half of them missing sizes or substrate, and quotes getting written at 10pm after production wraps.</p>
+
+  <p>Before I build anything to fix that, I'm calling independent shop owners across the US to learn how quoting and job intake <em>really</em> work day to day — what eats the most hours, what software actually helps, and what we've all just learned to live with.</p>
+
+  <div class="workorder">
+    <div class="tape"></div>
+    <div class="wo-head">
+      <span>Work Order</span>
+      <span class="no">№ 0015-MIN</span>
+    </div>
+    <div class="wo-body">
+      <div class="wo-row"><span class="label">Job</span><span>One 15-minute phone call. Research, not a pitch — no product, no demo, no follow-up funnel.</span></div>
+      <div class="wo-row"><span class="label">Specs</span><span>You tell me how a job goes from first request to confirmed order in your shop.</span></div>
+      <div class="wo-row"><span class="label">Payment</span><span>I share what's working in the other shops I've talked to. Straight trade.</span></div>
+      <a class="btn" href="https://calendly.com/ozgur-renahq/30min">Book the 15 minutes</a>
+    </div>
+  </div>
+
+  <p class="muted">Rather type than talk? <a class="mail" href="mailto:ozgur@renahq.com">ozgur@renahq.com</a> — happy to trade notes by email too.</p>
+
+  <div class="cropmarks"><span>✂ — — — — —</span><span>MEASURE TWICE · QUOTE ONCE</span><span>— — — — — ✂</span></div>
+
+  <footer>
+    Rena Online LLC · 8 The Green Ste A, Dover, DE 19901, USA<br>
+    You're probably here because I emailed you. If you'd rather not hear from me, reply "no thanks" and I'll stop.
+  </footer>
+</div>
+</body>
+</html>
